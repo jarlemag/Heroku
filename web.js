@@ -3,7 +3,7 @@ var app = express();
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World!');
+  response.send('Hello Leukippos team, lets code together! This code should be found at https://github.com/jarlemag/Heroku');
 });
 
 var port = process.env.PORT || 5000;
